@@ -1,9 +1,9 @@
-const express = require('express');
+const express = require("express");
 const app = express();
 const PORT = 3000;
 
-app.get('/status', (req, res) => {
-  res.json({ status: 'OK', message: 'API is running' });
+app.get("/status", (req, res) => {
+  res.json({ status: "OK", message: "API is running - v2" });
 });
 
 app.listen(PORT, () => {
